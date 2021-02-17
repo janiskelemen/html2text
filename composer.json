@@ -27,6 +27,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "~7.0",
-    "JanisKelemen/component-tests": "~0.2"
+    "janiskelemen/component-tests": "~0.2"
   }
 }
