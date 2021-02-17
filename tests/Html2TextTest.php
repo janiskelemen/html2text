@@ -12,9 +12,9 @@ class Html2TextTest extends \PHPUnit\Framework\TestCase {
 		$this->assertTrue(file_exists(__DIR__ . "/$test.html"), "File '$test.html' did not exist");
 		$this->assertTrue(file_exists(__DIR__ . "/$result.txt"), "File '$result.txt' did not exist");
 		$input = file_get_contents(__DIR__ . "/$test.html");
-		$expected = \Soundasleep\Html2Text::fixNewlines(file_get_contents(__DIR__ . "/$result.txt"));
+		$expected = \JanisKelemen\Html2Text::fixNewlines(file_get_contents(__DIR__ . "/$result.txt"));
 
-		$output = \Soundasleep\Html2Text::convert($input, $options);
+		$output = \JanisKelemen\Html2Text::convert($input, $options);
 
 		if ($output != $expected) {
 			file_put_contents(__DIR__ . "/$result.output", $output);
