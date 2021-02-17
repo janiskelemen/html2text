@@ -1,6 +1,6 @@
 <?php
 
-namespace janiskelemen;
+namespace JanisKelemen;
 
 class Html2Text {
 
