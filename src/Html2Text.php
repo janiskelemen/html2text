@@ -1,6 +1,6 @@
 <?php
 
-namespace Soundasleep;
+namespace janiskelemen;
 
 class Html2Text {
 
