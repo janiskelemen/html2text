@@ -2,7 +2,12 @@
   "name": "janiskelemen/html2text",
   "description": "A PHP script to convert HTML into a plain text format",
   "type": "library",
-  "keywords": [ "php", "html", "text", "email" ],
+  "keywords": [
+    "php",
+    "html",
+    "text",
+    "email"
+  ],
   "homepage": "https://github.com/janiskelemen/html2text",
   "license": "MIT",
   "authors": [
@@ -27,6 +32,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "~7.0",
-    "janiskelemen/component-tests": "~0.2"
+    "soundasleep/component-tests": "~0.2"
   }
 }
