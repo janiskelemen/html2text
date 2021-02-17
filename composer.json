@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "janiskelemen\\": "src"
+      "JanisKelemen\\": "src"
     }
   },
   "support": {
@@ -27,6 +27,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "~7.0",
-    "janiskelemen/component-tests": "~0.2"
+    "JanisKelemen/component-tests": "~0.2"
   }
 }
